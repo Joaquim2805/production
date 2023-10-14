@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header-content">
-      <h2 class="app-title">Prototype Application</h2>
+      <h2 class="app-title">Percevoir</h2>
       <nav>
         <ul class="nav-list">
           <li>
