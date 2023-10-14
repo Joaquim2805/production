@@ -1,6 +1,7 @@
 version: "3"
 services:
   service1:
+    build: ../Services/back
     container_name: back_container
     image: mon_image_fastapi:latest
 
@@ -8,6 +9,7 @@ services:
       - "8001:8001"
 
   service2:
+    build: ../Services/front
     container_name: front_container
     image: mon_image_front:latest
 
